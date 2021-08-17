@@ -1,5 +1,4 @@
---This is first jenkins
-
+--This is first Jenkins
 node{
    stage('SCM Checkout'){
      git 'https://github.com/iamdeedan/my-app.git'
